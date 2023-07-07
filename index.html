@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="/assets/icons/stopwatch-icon-illustration-flat-style-timer-vector-illustration-isolated-background-time-alarm-sign-business-concept_157943-11595.jpg">
+</head>
+<body>
+   <header>
+    <nav class="header__nav">
+        <div class="header__nav-left">
+            <div class="header__nav-left-logo">
+                <img src="./assets/icons/edit.png" alt="logo">
+                <p class="header__nav-left-logo-name">Fix-Your-Time</p>
+            </div>
+        </div>
+        <div class="header__nav-center">
+            <ul class="header__nav-center-ul">
+                <li>Pomodoro</li>
+                <li>Timer</li>
+                <li>Music</li>
+                <li>About-Us</li>
+            </ul>
+        </div>
+        <div class="header__nav-right">
+            <input class="header__nav-right-searchbar" type="placeholder">
+            <button class="header__nav-right-searchbar-btn">Search</button>
+
+        </div>
+    </nav>
+   </header>
+   <section class="hero-container">
+    <div class="hero__pomodoro-container">
+        <div class="hero__pomodoro-container-top">
+            <button class="hero__pomodoro-container-top-btn">Pomodoro</button>
+            <button class="hero__pomodoro-container-top-btn">Short-Break</button>
+            <button class="hero__pomodoro-container-top-btn">Long-Break</button>
+</div>
+        <div class="hero__pomodoro-container-center">25.00</div>
+        <div class="hero__pomodoro-container-down" id="hero__pomodoro-container-down-btn">
+            <button class="hero__pomodoro-container-down-start-btn">START</button>
+            <i class="ri-refresh-line" id="refresh-btn"></i>
+            <i class="ri-settings-2-line" id="setting-btn"></i>
+        </div>
+
+    </div>
+   </section>
+
+
+
+   <script src="main.js"></script>
+    
+</body>
+</html>
